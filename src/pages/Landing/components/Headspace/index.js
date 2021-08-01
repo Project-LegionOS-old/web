@@ -24,7 +24,9 @@ function HeadSpace() {
                     alt="Legion OS"
                     />
                 </div>
+                <div class="shadow"></div>
             </div>
+            <div class="scrolldownAnim"></div>
       </section>
     )
 }

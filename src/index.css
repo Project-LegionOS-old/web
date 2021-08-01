@@ -52,3 +52,27 @@ html {
 a {
   text-decoration: none;
 }
+
+section {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  section {
+      padding: 6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+      padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+      padding: 1.5rem;
+  }
+}

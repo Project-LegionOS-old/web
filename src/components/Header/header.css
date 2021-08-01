@@ -15,14 +15,16 @@
 }
 
 .navItems {
-    display: flex;
+    display: inline-block;
 }
 
 .navItem {
-    padding: 0rem 1rem;
+    padding: 0rem 1.5rem;
     text-decoration: none;
     color: #fff;
     font-weight: 600;
+    font-size: 1.5rem;
+    display: inline-block;
 }
 
 .navItem:hover {
@@ -43,6 +45,10 @@
     .navLogo img {
       width: 10rem;
       height: auto;
+    }
+
+    .navItems {
+        display: none;
     }
 }
   
