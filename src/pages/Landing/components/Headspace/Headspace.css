@@ -28,6 +28,54 @@
 }
 
 .phoneImage img {
-    width: 100%;
+    width: auto;
     height: 30rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .overviewText {
+        flex-basis: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .phoneImage{
+        display: none;
+    }
+
+    .mainOverview {
+        justify-content: center;
+    }
+
+    .overViewbutton {
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainSection {
+        padding-top: 3rem;
+    }
+
+    .overviewText {
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .mainOverview {
+        justify-content: center;
+    }
+
+    .overviewText_paragraph {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+
+

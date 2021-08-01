@@ -39,14 +39,14 @@
     color: transparent;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
     .navLogo img {
       width: 10rem;
       height: auto;
     }
 }
   
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 480px) {
     .navLogo img {
       width: 8rem;
       height: auto;

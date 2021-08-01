@@ -12,9 +12,11 @@ function HeadSpace() {
                     <p className="overviewText_paragraph">
                     A AOSP based project that is set to show its power in Battery, Performance and Customization without compromising security.
                     </p>
-                    <Link to="/downloads">
-                        <Button title="Download Now"/>
-                    </Link>
+                    <div className="overViewbutton">
+                        <Link to="/downloads">
+                            <Button title="Download Now"/>
+                        </Link>
+                    </div>
                 </div>
                 <div className="phoneImage">
                     <img
