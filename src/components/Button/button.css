@@ -1,0 +1,20 @@
+.buttonContainer {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttonContainer p {
+    background: var(--color-gradient);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0;
+}

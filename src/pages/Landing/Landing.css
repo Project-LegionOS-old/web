@@ -1,0 +1,20 @@
+.landingVector {
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    z-index: -1;
+    height: 100%;
+    opacity: 0.6;
+}
+
+section {
+    padding: 8rem;
+    text-align: center;
+}
