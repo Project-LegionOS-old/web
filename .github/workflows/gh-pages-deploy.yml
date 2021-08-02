@@ -17,4 +17,4 @@ jobs:
       - name: Set Creds
         run: git config user.name "rajkale99" && git config user.email "kaleraj.rk@gmail.com"
       - name: Deploy
-        run: npm start
+        run: npm build
